@@ -1,0 +1,8 @@
+nexmo:
+  apiKey : 6eba22d5
+  apiSecret : QmXBt61Pq3klggFI
+  applicationId :
+  uri : "https://messages-sandbox.nexmo.com/v1/messages"
+  privateKeyPath :
+  privateKeyName :
+  whatsapp.namespace :
