@@ -1,0 +1,11 @@
+Resources:
+  Function:
+    Type: AWS::Serverless::Function
+    Properties:
+      Timeout: 300
+      MemorySize: 128
+      Handler: com.notify.notify.handler.WhatsAppHandler::handleRequest
+      CodeUri: /Users/cbnits/Desktop/notify
+      Runtime: java11
+      Architectures:
+        - x86_64

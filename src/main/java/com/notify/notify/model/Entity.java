@@ -1,16 +1,13 @@
 package com.notify.notify.model;
 
-import lombok.AllArgsConstructor;
+
 import lombok.Builder;
 import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.Getter;
 
-@Data
-@AllArgsConstructor
 @Builder
-@NoArgsConstructor
-public class Users {
-
+@Data
+public class Entity {
     private String message_type;
     private String to;
     private String from;
