@@ -23,7 +23,6 @@ public class WhatsAppServiceImpl {
     private NexmoConfig nexmoConfig;
     private Users users;
     private final Gson gson;
-
     Response response = new Response();
 
     public WhatsAppServiceImpl(Gson gson) {
